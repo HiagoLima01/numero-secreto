@@ -1,4 +1,4 @@
-let num = 29;
+let num = parseInt((Math.random() * 10)+1);
 let chute;
 let tentativas = 1;
 
