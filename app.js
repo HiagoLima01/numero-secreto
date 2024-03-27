@@ -1,9 +1,10 @@
-let num = parseInt((Math.random() * 10)+1);
+let dificuldade = 100;
+let num = parseInt((Math.random() * dificuldade)+1);
 let chute;
 let tentativas = 1;
 
 while(chute != num){
-    chute = prompt("Escolha um número entre 1 e 10")
+    chute = prompt(`Escolha um número entre 1 e ${dificuldade}`)
     if (num === chute){
 
         break
